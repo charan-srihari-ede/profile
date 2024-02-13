@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan.</title>
+    <link rel="shortcut icon" href="image/favicon-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><span>C</span>haran.</p>
+                <ul id="sidemenu">
+                    <li><a href="#head" class="active" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#certificates" onclick="closemenu()">Certificates</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa fa-close" onclick="closemenu()" style="font-size:24px"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()" style="font-size:24px"></i>
+            </nav>
+        </div>
+    </div>
+    <section id="head">
+        <div id="head">
+            <div id="header-text">
+                <p><u>Student</u></p>
+                <h1>Hi, I'm <span>Charan Sri Hari Ede</span><br>From India</h1>
+                
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="image/user1.jpg">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am pursuing my final year of undergraduate degree at Vignan's foundation for Science, Technology and research in computer science and Engineering, where I have learned how to apply critical thinking and problem strategies to today's complex problems. I believe in taking up challenges to become a better version of myself and to be a part of establishing better society.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links "onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Android Application Development</span><br>&emsp;&#9633; Java, XML, Firebase, Android Stuido.</li>
+                                <li><span>Web Development</span><br>&emsp;&#9633; HTML , CSS, Bootstrap, Angular, JavaScript, PHP, TypeScript.</li>
+                                <li><span>Databases</span><br>&emsp;&#9633; MYSQL,SQLite,Firebase.</li>
+                                <li><span>Programming Languages</span><br>&emsp;&#9633; C, Python, Java.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Jul 2023 - Present</span><br>
+                                    <b>&#9633; Technology development Intern</b>, <i>Internship</i><br>
+                                    &emsp;At Vignan's Foundation for Science,Technology & Research <br>
+                                    &emsp;<i>Guntur, Andhra Pradesh, India </i><br><br>
+                                    <b>&emsp;Tasks</b><hr style="margin: 10px;">
+                                    &emsp;&#9633;&emsp;Developing Construction Management project using HTML, CSS, PHP, JAVASCRIPT programming language. <br>
+                                    &emsp;&#9633;&emsp;analyzing problems and working with teams to develop solutions. <br>
+                                    &emsp;&#9633;&emsp;Exploring new technologies and approaches to streamline processes. <br>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2020 - 2024</span><br><b>&#9633; Vignan's Foundation for Science,Technology & Research , Guntur</b><br><b>&emsp;Course:</b> <i>Btech, Computer Science and Engineering</i><br><b>&emsp;Grade: </b><i>9.0 SGPA</i></li>
+                                <li><span>2018 - 2020</span><br><b>&#9633; Sri Chaitanya Junior College , Machilipatnam</b><br><b>&emsp;Course: </b><i>MPC </i><br><b>&emsp;Grade:</b><i> 9.59 CGPA</i></li>
+                                <li><span>2017 - 2018</span><br><b>&#9633; Sri Chaitanya School , Machilipatnam</b><br><b>&emsp;Course: </b><i>10<sup>th </sup>Standard </i><br><b>&emsp;Grade:</b><i> 9.7 CGPA</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----certificates----- -->
+    <section id="certificates">
+        <div id="certificates">
+            <div class="container">
+                <h1 class="sub-title">Certificates</h1>
+                <div class="services-list">
+                    <div class="grid-item">
+                        <h3>Programming, Data Structures and algorithms using Python </h3>
+                        <p><i>offered by</i>  NPTEL</p>
+                        <a href="https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS15S4461133703036396" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Data Collections and Processing with python</h3>
+                        <p><i>offered by</i>  COURSERA</p>
+                        <a href="https://coursera.org/share/83f7cb87950b9e46b50312c02c897980" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Certified on ESG Virtual Experience Program</h3>
+                        <p><i>offered by</i>  TCS <i> through</i> FORAGE</p>
+                        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/N8Muuhk6XsXgMTeu2_Tata%20Consultancy%20Services_pTd4cTCrsKm3oBvFn_1678723141085_completion_certificate.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Certified on SQL ( Basic, intermidiate )</h3>
+                        <p><i>offered by</i>  HACKERRANK</p>
+                        <a href="https://www.hackerrank.com/certificates/ee6f2d92b66c" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Certified on JavaScript Essentials</h3>
+                        <p><i>offered by </i>CISCO NETWORKING ACADEMY</p>
+                        <a href="https://drive.google.com/file/d/1Ff5LgoF1kHkCt0kJExCwwxaONR1vGj78/view?usp=share_link" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="grid-item">
+                        <h3>certified on Angular (Basics)</h3>
+                        <p><i>offered by</i>  Hackerank</p>
+                        <a href="https://www.hackerrank.com/certificates/1579404a480c" target="_blank">View Certificate</a>
+                </div>
+                    <div class="grid-item">
+                        <h3>Business English Certificate Vantage</h3>
+                        <p><i>offered by</i> CAMBRIDGE UNIVERSITY</p>
+                        <a href="https://drive.google.com/file/d/1CZi0gpq0KY03bD1zKtBkodTcvVjfF13k/view?usp=sharing" target="_blank">View Certificate</a>
+                    </div>
+                        <div class="grid-item"><a href="https://www.linkedin.com/in/charan-srihari-ede-a1851223b/details/certifications/" style="color: #fff;text-decoration: none; padding: 25px; " target="_blank" ><h1>See More<br><p style="font-size: 13px; line-height: 25px;">(on Linkedin)</p></h1></a></div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------work----------- -->
+    <section id="portfolio">
+        <div id="portfolio">
+            <div class="container">
+                    <h2 class="sub-title">My Work</h2>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image/clms.jpeg" alt="work1">
+                            <div class="layer">
+                                <!-- <h3>College Information Management Application </h3> -->
+                                <p>An android application for managing student notices, college-related information, and providing easy access to pdf and ppt files</p>
+                                <a href="https://github.com/charan-srihari-ede/College-information-management-application"><span class="material-symbols-outlined">
+                                    display_external_input
+                                    </span></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/quizzer.jpeg" alt="work2">
+                            <div class="layer">
+                                <!-- <h3>Quizzer App</h3> -->
+                                <p>An android quiz app for conducting quizzes and easy management of results for universitiy/college students.</p>
+                                <a href="https://github.com/charan-srihari-ede/Quizzer"><span class="material-symbols-outlined">
+                                    display_external_input
+                                    </span></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/ams.jpeg" alt="work3">
+                            <div class="layer">
+                                <!-- <h3>Airline Management System website</h3> -->
+                                <p>Airport Management System is a web application, developed to maintain the details of passengers, flight details in an airport.</p>
+                                <a href="https://github.com/charan-srihari-ede/Airline_management_system/"><span class="material-symbols-outlined">
+                                    display_external_input
+                                    </span></a>
+                            </div>
+                        </div>
+                </div>
+                <a href="https://github.com/charan-srihari-ede?tab=repositories" target="_blank" class="btn" data-toggle="tooltip" data-placement="top" title="More on Github" >See More</a>
+            </div>
+        </div>
+    </section>
+    <!-- -----------contact---------- -->
+    <section id="contact" style="padding-top: 50px;">
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                       
+                        <p><i class="fa fa-envelope" style="color:red;"></i>charanede18@gmail.com</p>
+                        <p ><i class="fa fa-phone" style="color:red"></i>+916304393058</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/charan_ede/" data-toggle="tooltip" data-placement="top" title="instagram" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/charan-srihari-ede-a1851223b/" data-toggle="tooltip" data-placement="top" title="Linked in" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" data-toggle="tooltip" data-placement="top" title="Hackerrank" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+                            <a href="https://github.com/charan-srihari-ede" data-toggle="tooltip" data-placement="top" title="Github" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/uc?export=download&id=1vgDM74EMo12t_w_pd8ELRQ2XwAY91CxL" class="btn btn2"><i class="fa fa-download" style="font-size:18px;color:#ababab;padding-right: 4px;"></i>Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"rows="10" placeholder="Your Message"></textarea>
+                            <div id="btn1">
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </div>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------copy rights--------- -->
+    <section>
+    <div class="copyright">
+        <p>copyright &copy;<b style="color: #ff004f;"> C</b>haran. Contact <i style="color: #ababab;">charanede18@gmail.com</i></p>
+    </div>
+    </section>
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right='0';
+            
+        }
+        function closemenu(){
+            sidemenu.style.right="-179px";
+
+        }
+        let sections=document.querySelectorAll('section');
+        let navlinks=document.querySelectorAll('nav ul li a');
+        window.onscroll=() =>{
+            sections.forEach(sec=>{
+                let top=window.scrollY;
+                let offset=sec.offsetTop-150;
+                let height=sec.offsetHeight;
+            
+                let id=sec.getAttribute('id');
+                if (top>=offset && top<offset+height){
+                    navlinks.forEach(links=>{
+                        links.classList.remove('active');
+                        document.querySelector('nav ul li a[href*='+id+']').classList.add('active');
+                    });
+                };
+            });
+        }; 
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz7LywbQ_1NwEabe5tfrORFdGZsAYDs1z_bv5iTTlL6Kt31jcgrck0lVSkUhz7IxI6f/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                    form.reset()
+            })
+            .catch(error => {
+                msg.style.color="#ff004f";
+                msg.innerHTML="something went wrong ! " +error.message
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                    form.reset()
+            })
+        })
+      </script>
+      <script>
+        $(document).ready(function(){
+            $('[data-toogle="tooltip"]').tooltip();
+        });
+      </script>
+</body>
+</html>
